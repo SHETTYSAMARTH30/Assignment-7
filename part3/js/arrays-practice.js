@@ -141,6 +141,6 @@ leastFavMovies = ["The Tourist", "Ad Astra", "Momento"];
 movies = movieList4.concat(leastFavMovies);
 movies = movies.reverse();
 
-var lastItem = movies.slice((movies.length)-1)
+var lastItem = movies.slice((movies.length)-1);
 window.console.log(lastItem);
 window.console.log("\n");
