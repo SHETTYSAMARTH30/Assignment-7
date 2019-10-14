@@ -1,4 +1,9 @@
 /*eslint-env browser */
+
+//Global Variables
+var inp1;
+var result;
+
 //STEP 1
 function halfNumber(num) {
     "use strict";
@@ -47,11 +52,9 @@ function sumOfNumbers(str1) {
 	return totalSum;
 }
 
-// prompting for inputs Part 1 to 4
-// Step 5 extension
 while (true) {
-	var inp1 = window.prompt("Enter a list of numbers separated by ',' ");
-	var result = sumOfNumbers(inp1);
+	inp1 = window.prompt("Enter a list of numbers separated by ',' ");
+	result = sumOfNumbers(inp1);
 	if (result === false) {
 		window.alert("Not valid entries ! Please, enter a list of numbers separated by ',' ");
 	} else {
@@ -67,7 +70,7 @@ window.console.log("2 is " + percentOf(2, 4) + "% of 4.");
 
 window.console.log(findModulus(4, 10) + " is the modulus of 4 and 10.");
 
-window.console.log("The sum of all the numbers separeted by ',' is: " + result);
+window.console.log("The sum of all the numbers separated by ',' is: " + result);
 
 
 
